@@ -1,0 +1,35 @@
+.title-m {
+    font-size: 28px;
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+
+.title {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.logo-n {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.logo:hover {
+    color: #eaeaea;
+	transform: rotate(2deg);
+}
+
+.banner {
+    background: url(assets/image/Banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    color: #ffff;
+}
+
+@media screen and (max-width: 500px) {
+    .logo-n {
+        gap: 0;
+    }
+}
