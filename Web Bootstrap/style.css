@@ -1,0 +1,59 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-m {
+    font-size: 28px;
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+
+.title {
+    font-size: 22px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.logo-n {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 1vh;
+}
+
+.logo:hover {
+    color: #eaeaea;
+	transform: rotate(2deg);
+}
+
+.banner {
+    background: url(assets/image/Banner.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;   
+    padding-top: 17%;
+    padding-bottom: 17%;
+    color: #ffff;
+}
+
+@media screen and (max-width: 500px) {
+    .logo-n {
+        gap: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .title-m {
+        font-size: 15;
+    }
+    .title {
+        font-size: 10;
+    }
+    .banner {
+        width: 100%;
+        height: 100vh;
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
+}
